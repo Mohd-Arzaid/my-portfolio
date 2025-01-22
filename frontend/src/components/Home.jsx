@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem]  lg:h-[37rem] lg:overflow-auto">
         <main className=" lg:m-8">
-          <div className="flex flex-col gap-3 lg:gap-0 lg:flex-row lg:justify-between ">
+          <div className="pt-4 px-2 md:pt-0 md:px-0 flex flex-col gap-3 lg:gap-0 lg:flex-row lg:justify-between ">
             <span className="flex text-lg lg:text-xl items-center font-bold justify-center gap-2">
               <Star
                 className="hidden lg:block fill-current text-black opacity-70"
@@ -30,7 +30,7 @@ const Home = () => {
             <Filters onFilterChange={setSelectedCategory} />
           </div>
 
-          <div className="pb-[2rem] mt-8 grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-[2.5rem] mb-28 lg:mb-0">
+          <div className="pb-[2rem] mt-7 md:mt-8 grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-7 md:gap-[2.5rem] mb-28 lg:mb-0">
             {/* project */}
             <ShowProjects
               projects={projectsData.filter((project) =>
@@ -38,6 +38,7 @@ const Home = () => {
               )}
             />
           </div>
+
         </main>
       </div>
     </>

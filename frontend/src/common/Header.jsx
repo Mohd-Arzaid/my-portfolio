@@ -1,14 +1,6 @@
 import TypingAnimation from "@/components/TypingAnimation";
 
-import {
-  
-  Code2,
-  Github,
-  Mail,
-  Terminal,
-  Twitter,
-  
-} from "lucide-react";
+import { Code2, Github, Mail, Terminal, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -34,15 +26,15 @@ const Header = () => {
             <Github className=" lg:hidden " size={19} />
           </Link>
           <Link className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]">
-            <Code2 className="hidden lg:block"size={20} />
+            <Code2 className="hidden lg:block" size={20} />
             <Code2 className=" lg:hidden " size={19} />
           </Link>
           <Link className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]">
-            <Twitter className="hidden lg:block"size={20} />
+            <Twitter className="hidden lg:block" size={20} />
             <Twitter className=" lg:hidden " size={19} />
           </Link>
           <Link className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]">
-            <Mail className="hidden lg:block" size={20}/>
+            <Mail className="hidden lg:block" size={20} />
             <Mail className=" lg:hidden " size={19} />
           </Link>
         </div>

@@ -4,7 +4,7 @@ const ShowProjects = ({projects}) => {
   return (
     <>
     {projects.map(project => (
-      <div key={project.id} className="h-[28rem] lg:mb-0 px-4 py-3 flex flex-col gap-4 shadow-sm bg-[#f9f9f9] rounded-lg border-2 border-white">
+      <div key={project.id} className="h-[28rem] mx-2 md:mx-0 lg:mb-0 px-4 py-3 flex flex-col gap-4 shadow-sm bg-[#f9f9f9] rounded-lg border-2 border-white">
         <div className="h-[15rem] bg-cover bg-center rounded-lg" style={{ backgroundImage: `url(${project.imageUrl})` }}></div>
 
         <div className="flex items-center justify-between mt-1">
