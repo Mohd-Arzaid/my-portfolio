@@ -1,6 +1,15 @@
 import { Code2, TrendingUp } from "lucide-react"
 
 const ShowProjects = ({projects}) => {
+  const handleLiveDemo = (url) => {
+    if (url) window.open(url, '_blank');
+  };
+
+  const handleSourceCode = (url) => {
+    if (url) window.open(url, '_blank');
+  };
+
+
   return (
     <>
     {projects.map(project => (
@@ -10,12 +19,22 @@ const ShowProjects = ({projects}) => {
         <div className="flex items-center justify-between mt-1">
           <h4 className="font-bold text-2xl">{project.title}</h4>
           <div className="flex gap-3">
-            <span className="transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] rounded-md px-3 py-2">
-              <Code2 size={18} />
-            </span>
-            <span className="transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] rounded-md px-3 py-2">
-              <TrendingUp size={18} />
-            </span>
+            {project.githubCode && (
+                <span 
+                  onClick={() => handleSourceCode(project.githubCode)}
+                  className="transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] rounded-md px-3 py-2 cursor-pointer"
+                >
+                  <Code2 size={18} />
+                </span>
+              )}
+              {project.liveDemo && (
+                <span 
+                  onClick={() => handleLiveDemo(project.liveDemo)}
+                  className="transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] rounded-md px-3 py-2 cursor-pointer"
+                >
+                  <TrendingUp size={18} />
+                </span>
+              )}
           </div>
         </div>
 
