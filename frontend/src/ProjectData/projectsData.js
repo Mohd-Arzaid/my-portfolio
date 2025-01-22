@@ -6,7 +6,7 @@ const projectsData = [
       description: "An Ed-Tech platform for users to create, enroll in, and rate educational content.",
       categories: ["Full Stack","Backend", "Frontend", "Landing Pages"],
       imageUrl: "./assets/Project5.png",
-      techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "TailwindCSS"],
+      techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "Tailwind"],
     },
     {
       id: 2,
