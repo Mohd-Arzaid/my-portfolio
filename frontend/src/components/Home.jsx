@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem]  lg:h-[37rem] lg:overflow-auto">
-        <main className=" m-4 lg:m-8">
+        <main className=" lg:m-8">
           <div className="flex flex-col gap-3 lg:gap-0 lg:flex-row lg:justify-between ">
             <span className="flex text-lg lg:text-xl items-center font-bold justify-center gap-2">
               <Star

@@ -14,8 +14,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="bg-[#f9f9f9] p-4 flex items-start justify-between ">
-        <div className="mx-2 lg:mx-0">
+      <header className="bg-[#f9f9f9] px-6 py-4 flex items-start justify-between ">
+        <div>
           <h1 className="text-3xl uppercase font-bold tracking-widest">
             <span className="hidden lg:block">Mohd Arzaid</span>
             <span className="lg:hidden">Arzaid</span>
@@ -28,7 +28,7 @@ const Header = () => {
           </span>
         </div>
 
-        <div className="flex gap-2 md:gap-4 pr-4 lg:pr-2  lg:mb-0  mt-1 lg:mt-0 items-center">
+        <div className="flex items-center gap-2 md:gap-4  lg:pr-2  lg:mb-0  mt-1 lg:mt-0">
           <Link className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]">
             <Github className="hidden lg:block" size={20} />
             <Github className=" lg:hidden " size={19} />
@@ -49,7 +49,7 @@ const Header = () => {
       </header>
 
       <div className="lg:hidden">
-        <div className="max-w-[100%] mt-5 mb-5 flex flex-col">
+        <div className="max-w-[100%] mt-4 mb-5 flex flex-col">
           <div className="mt-2 mx-6 flex flex-col gap-2">
             <span className=" text-sm flex items-center mt-1 gap-2 font-medium tracking-widest uppercase  ">
               <Terminal size={17} className="opacity-70 " />

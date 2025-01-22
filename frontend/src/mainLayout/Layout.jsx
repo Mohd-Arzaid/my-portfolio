@@ -1,7 +1,6 @@
 import Header from "@/common/Header"
 import LeftSideBar from "@/common/LeftSideBar"
 import RightSideBar from "@/common/RightSideBar"
-import Footer from "@/components/Footer"
 import { Outlet } from "react-router-dom"
 
 
