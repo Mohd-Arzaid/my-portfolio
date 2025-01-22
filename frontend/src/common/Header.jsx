@@ -28,7 +28,7 @@ const Header = () => {
           </span>
         </div>
 
-        <div className="flex gap-4 pr-8 lg:pr-2  lg:mb-0  mt-1 lg:mt-0 items-center">
+        <div className="flex gap-2 md:gap-4 pr-4 lg:pr-2  lg:mb-0  mt-1 lg:mt-0 items-center">
           <Link className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]">
             <Github className="hidden lg:block" size={20} />
             <Github className=" lg:hidden " size={19} />
