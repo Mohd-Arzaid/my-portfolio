@@ -19,8 +19,8 @@ const projectsData = [
     categories: ["Full Stack", "Backend", "Frontend", "Landing Pages"],
     imageUrl: "./assets/Project2.png",
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "ShadCN"],
-    liveDemo: "https://arzaid-food-app.onrender.com/",
-    githubCode: "https://github.com/Arzaid-aka-Rz/foodapp",
+    liveDemo: "https://arzaid-food-app.vercel.app/",
+    githubCode: "https://github.com/Mohd-Arzaid/food-app",
   },
   {
     id: 3,
