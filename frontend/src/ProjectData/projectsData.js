@@ -25,8 +25,9 @@ const projectsData = [
   {
     id: 3,
     title: "Typing Hub",
-    description: "Implemented a multimode Typing Test Website with the ability to save results for better analysis.",
-    categories: ["Full Stack","Backend", "Frontend", "Landing Pages"],
+    description:
+      "Implemented a multimode Typing Test Website with the ability to save results for better analysis.",
+    categories: ["Full Stack", "Backend", "Frontend", "Landing Pages"],
     imageUrl: "./assets/Project3.png",
     techStack: ["React", "Firebase", "Toastify", "Styled Components"],
     liveDemo: "https://arzaid-typing-hub.netlify.app/",
@@ -35,13 +36,23 @@ const projectsData = [
   {
     id: 4,
     title: "Saas Landing Page",
-    description: "Saas Landing Page build using react , tailwindCss and framer-motion for animation",
-    categories: [ "Landing Pages"],
+    description:
+      "Saas Landing Page build using react , tailwindCss and framer-motion for animation",
+    categories: ["Landing Pages"],
     imageUrl: "./assets/Project7.png",
-    techStack: [ "React", "TailwindCss","Framer-Motion"],
-    
+    techStack: ["React", "TailwindCss", "Framer-Motion"],
   },
-
+  {
+    id: 5,
+    title: "Auth Flow",
+    description:
+      "A Complete Authentication solution featuring User management, secure Login, Registration, and Password recovery",
+    categories: ["Full Stack", "Backend", "Frontend"],
+    imageUrl: "./assets/Project8.png",
+    techStack: ["MongoDB", "React", "NodeJs", "Redux", "ShadCN"],
+    liveDemo: "https://arzaid-auth-flow.vercel.app/",
+    githubCode: "https://github.com/Mohd-Arzaid/frontend-auth-flow",
+  },
 ];
 
 export default projectsData;
