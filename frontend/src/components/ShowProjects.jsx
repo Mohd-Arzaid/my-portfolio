@@ -57,7 +57,7 @@ const ShowProjects = ({ projects }) => {
             {project.techStackMobile.map((tech, index) => (
               <span
                 key={index}
-                className=" block md:hidden transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] text-sm lg:text-sm rounded-sm lg:rounded-md px-1 py-1 lg:px-3 lg:py-2"
+                className=" block md:hidden transition duration-300 text-black ease-in-out bg-[#dad3d3] hover:bg-[#b4a0a0] text-sm lg:text-sm rounded-sm lg:rounded-md px-2 py-1 lg:px-3 lg:py-2"
               >
                 {tech}
               </span>
