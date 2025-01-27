@@ -32,7 +32,7 @@ const projectsData = [
     categories: ["Full Stack", "Backend", "Frontend", "Landing Pages"],
     imageUrl: "./assets/Project3.png",
     techStack: ["React", "Firebase", "Toastify", "Styled Components"],
-    techStackMobile: ["React", "Firebase", "Toastify", "Styled Components"],
+    techStackMobile: ["React", "Toastify", "Styled Components"],
     liveDemo: "https://arzaid-typing-hub.netlify.app/",
     githubCode: "https://github.com/Arzaid-aka-Rz/typing-website",
   },

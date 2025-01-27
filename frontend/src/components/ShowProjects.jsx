@@ -14,7 +14,7 @@ const ShowProjects = ({ projects }) => {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="md:h-[28rem] mx-2 md:mx-0 lg:mb-0 px-4 py-3 flex flex-col gap-4 shadow-sm bg-[#f9f9f9] rounded-lg border-2 border-white"
+          className="md:h-[28rem] mx-2 md:mx-0 lg:mb-0 px-3 md:px-4 py-3 flex flex-col gap-4 shadow-sm bg-[#f9f9f9] rounded-lg border-2 border-white"
         >
           <div
             className="h-[10rem] md:h-[15rem] bg-cover bg-center rounded-lg"
