@@ -51,7 +51,7 @@ const About = () => {
           </span>
         </p>
 
-        {/* <Separator className="mt-5 border border-gray-500/30" /> */}
+        <Separator className="mt-5 border border-gray-500/30" />
 
         <h2 className="text-lg md:text-2xl mt-3 md:mt-5 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
           <Zap className="md:hidden flex" size={16} />
