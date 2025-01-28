@@ -65,7 +65,7 @@ const About = () => {
           <span className="text-lg ml-2">Available for new opportunities</span>
         </div>
 
-        <div className="flex gap-3 flex-wrap mt-3 mb-3 items-center">
+        <div className="flex gap-3 flex-wrap mt-4 md:mt-3 mb-4  md:mb-3 items-center">
           <a
             href="https://github.com/Mohd-Arzaid"
             target="_blank"
