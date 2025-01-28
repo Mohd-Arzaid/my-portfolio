@@ -17,7 +17,7 @@ const Contact = () => {
       setMessage(event.target.value);
   };
   return (
-    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-32 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
+    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-32 md:pb-0 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
        <div className="flex justify-center m-5 items-center gap-5 flex-col" id="contact">
             <h1 className=" capitalize font-bold text-4xl relative lg:text-4xl tracking-wide">
                 Contact Me <span className="  text-8xl lg:text-[9rem] animate-pulse absolute lg:-bottom-2 bottom-0">.</span>
