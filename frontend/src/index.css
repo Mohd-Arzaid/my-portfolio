@@ -144,3 +144,36 @@ body {
     transition: all ease-in 0.2s;
     opacity: 1 !important;
 }
+
+.loadmorebtn {
+  padding: 18px;
+  display: flex;
+  gap: 10px;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  box-shadow: 10px 10px #808080;
+  border: 2px solid #808080 !important;
+  transition: all ease-in 0.2s !important;
+  margin-right: 10px;
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+
+
+  .loadmorebtn {
+      padding: 15px;
+      width: 80%;
+  }
+
+
+}
+
+.loadmorebtn:hover {
+  box-shadow: none;
+  transform: translateY(4px) !important;
+  transition: all ease-in 0.2s;
+  opacity: 1 !important;
+}

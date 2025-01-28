@@ -1,5 +1,7 @@
-import { Info, Zap } from "lucide-react";
+import {  GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { Info, MailPlus, Zap } from "lucide-react";
 import { Separator } from "./ui/separator";
+// import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 const About = () => {
   return (
@@ -51,12 +53,74 @@ const About = () => {
 
         {/* <Separator className="mt-5 border border-gray-500/30" /> */}
 
-        {/* <h2 className="text-lg md:text-2xl mt-4 md:mt-5 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
+        <h2 className="text-lg md:text-2xl mt-3 md:mt-5 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
           <Zap className="md:hidden flex" size={16} />
           <Zap className="md:flex hidden" />
-          Experience
+          Lets Connect
         </h2>
-        <div className="text-md lg:text-xl mt-3 whitespace-break-spaces font-normal">
+
+        <div className="flex items-center ">
+          <div className="aspect-square flex-none h-[14px] overflow-hidden relative w-3.5 will-change-transform bg-blue-500 rounded-full"></div>
+          <span className="text-lg ml-2">Available for new opportunities</span>
+        </div>
+
+        <div className="flex gap-3 flex-wrap mt-3 mb-3 items-center">
+          <a
+            href="https://github.com/Mohd-Arzaid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GitHubLogoIcon className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+          </a>
+
+          <a
+            href="https://x.com/__Arzaid__"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <TwitterLogoIcon className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+          </a>
+          <a
+            href="mailto:arzaid010103@gmail.com?body=Hello"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MailPlus className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+          </a>
+          <a
+            href="https://instagram.com/arzaid._.xd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <InstagramLogoIcon className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+          </a>
+        </div>
+        <p className=" text-md lg:text-xl whitespace-break-spaces font-normal">
+          I&apos;m excited to connect with others via email (
+          <a
+            href="mailto:arzaid010103@gmail.com?body=Hello"
+            rel="noopener noreferrer"
+            target="_blank"
+            className=" text-blue-500 italic font-bold"
+          >
+            arzaid010103@gmail.com
+          </a>
+          ) and{" "}
+          <a
+            href="https://x.com/__Arzaid__"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="font-bold italic text-blue-500"
+          >
+            Twitter
+          </a>{" "}
+          to chat about projects and ideas I&apos;m taking on freelance projects
+          and I am open to hearing about potential opportunities, discussing
+          them with you and then potentially collaborating if it&apos;s a good
+          fit.
+        </p>
+
+        {/* <div className="text-md lg:text-xl mt-3 whitespace-break-spaces font-normal">
           <span>
             <div className="flex items-center justify-between">
               <h3 className="font-semibold tracking-wide text-md md:text-xl">
@@ -86,7 +150,7 @@ const About = () => {
               </li>
             </ul>
           </span>
-        </div> */}
+        </div>  */}
       </main>
     </div>
   );
