@@ -124,12 +124,19 @@ body {
 
 .boxshadowbtn {
   padding: 12px;
-  width: 50%;
+  width: 100%; /* Default width for smaller devices */
   margin: auto;
   box-shadow: 10px 10px #808080;
   border: 2px solid #808080 !important;
   transition: all ease-in 0.2s !important;
 }
+
+@media (min-width: 768px) { /* For larger devices */
+  .boxshadowbtn {
+    width: 50%; /* Width for larger devices */
+  }
+}
+
 
 .boxshadowbtn:hover {
     box-shadow: none;
