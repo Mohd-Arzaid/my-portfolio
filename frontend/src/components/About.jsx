@@ -49,9 +49,9 @@ const About = () => {
           </span>
         </p>
 
-        <Separator className="mt-5 border border-gray-500/30" />
+        {/* <Separator className="mt-5 border border-gray-500/30" /> */}
 
-        <h2 className="text-lg md:text-2xl mt-4 md:mt-5 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
+        {/* <h2 className="text-lg md:text-2xl mt-4 md:mt-5 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
           <Zap className="md:hidden flex" size={16} />
           <Zap className="md:flex hidden" />
           Experience
@@ -86,7 +86,7 @@ const About = () => {
               </li>
             </ul>
           </span>
-        </div>
+        </div> */}
       </main>
     </div>
   );
