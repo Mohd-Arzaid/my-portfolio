@@ -30,6 +30,7 @@ const Home = () => {
             <Filters onFilterChange={setSelectedCategory} />
           </div>
 
+
           <div className="pb-[2rem] mt-7 md:mt-8 grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-7 md:gap-[2.5rem] mb-28 lg:mb-0">
             {/* project */}
             <ShowProjects
