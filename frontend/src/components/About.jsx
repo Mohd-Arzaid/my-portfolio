@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-28 lg:pb-0 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
+    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-32 lg:pb-0 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
       <main className="m-5 md:m-8">
         <h1 className="text-3xl lg:text-4xl text-center font-bold tracking-wide">
           Hi. I&apos;m{" "}
           <span className=" text-balance text-blue-500">Mohd Arzaid</span>
         </h1>
 
-        <h2 className="text-lg md:text-2xl mt-4 md:mt-2 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
+        <h2 className="text-lg md:text-2xl mt-3 md:mt-2 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
           <Info className="md:hidden flex" size={16} />
           <Info className="md:flex hidden" />
           Short Bio
@@ -121,7 +121,7 @@ const About = () => {
           fit.
         </p>
 
-        <div className="flex justify-center flex-wrap gap-5 md:gap-8 items-center mt-5 md:mt-9">
+        <div className="flex justify-center flex-wrap gap-5 md:gap-8 items-center mt-7 md:mt-9">
                     <Link href={"/#contact"} className="loadmorebtn flex justify-center items-center">
                         Leave A Message
                     </Link>
