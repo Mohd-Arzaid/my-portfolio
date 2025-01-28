@@ -1,11 +1,12 @@
 import {  GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 import { Info, MailPlus, Zap } from "lucide-react";
 import { Separator } from "./ui/separator";
+import { Link } from "react-router-dom";
 // import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 const About = () => {
   return (
-    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-28 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
+    <div className="main-layout bg-[#EDEDED]  lg:mx-0 flex-1 border-2 border-white  lg:rounded-[1.5rem] pb-28 lg:pb-0 lg:mb-0 lg:h-[37rem] lg:overflow-auto">
       <main className="m-5 md:m-8">
         <h1 className="text-3xl lg:text-4xl text-center font-bold tracking-wide">
           Hi. I&apos;m{" "}
@@ -120,37 +121,15 @@ const About = () => {
           fit.
         </p>
 
-        {/* <div className="text-md lg:text-xl mt-3 whitespace-break-spaces font-normal">
-          <span>
-            <div className="flex items-center justify-between">
-              <h3 className="font-semibold tracking-wide text-md md:text-xl">
-                Full Stack Developer 
-              </h3>
-              <div className="flex items-center justify-between gap-1 md:gap-2 font-semibold text-xs md:text-sm italic">
-                <p className="text-gray-500">June 2024 - Jan 2024</p>
-                <p className="md:flex hidden text-gray-500">KGI Services, New Delhi</p>
-              </div>
-            </div>
-            <ul className="list-disc list-inside mt-2 md:mt-3">
-              <li>
-                Built a fully responsive website using MERN stack with dynamic
-                content and UI/UX friendly.
-              </li>
-              <li>
-                Integrated career page for job search, applications, and
-                location filters.
-              </li>
-              <li>
-                Managed the backend system integration and dynamic content
-                updates through an admin dashboard.
-              </li>
-              <li>
-                Developed custom dashboards for affiliate marketing and email
-                marketing.
-              </li>
-            </ul>
-          </span>
-        </div>  */}
+        <div className="flex justify-center flex-wrap gap-5 md:gap-8 items-center mt-5 md:mt-9">
+                    <Link href={"/#contact"} className="loadmorebtn flex justify-center items-center">
+                        Leave A Message
+                    </Link>
+                    <Link href={"/projects"} className="loadmorebtn flex justify-center items-center">
+                        Visit Projects
+                    </Link>
+                </div>
+
       </main>
     </div>
   );
