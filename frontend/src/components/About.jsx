@@ -10,7 +10,7 @@ const About = () => {
       <main className="m-5 md:m-8">
         <h1 className="text-3xl lg:text-4xl text-center font-bold tracking-wide">
           Hi. I&apos;m{" "}
-          <span className=" text-balance text-blue-500">Mohd Arzaid</span>
+          <span className=" text-balance text-blue-500">Harshad</span>
         </h1>
 
         <h2 className="text-lg md:text-2xl mt-3 md:mt-2 flex gap-1.5 lg:gap-2 items-center font-semibold md:font-bold tracking-wide">
@@ -24,7 +24,7 @@ const About = () => {
             I love building software that solves real world problems which is
             probably why everything I build is{" "}
             <a
-              href="https://github.com/Mohd-Arzaid"
+              href="https://github.com/Mohd-Harshad"
               target="_blank"
               rel="noopener noreferrer"
               className=" font-bold text-green-500"
@@ -67,7 +67,7 @@ const About = () => {
 
         <div className="flex gap-3 flex-wrap mt-4 md:mt-3 mb-4  md:mb-3 items-center">
           <a
-            href="https://github.com/Mohd-Arzaid"
+            href="https://github.com/Mohd-Harshad"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,21 +75,21 @@ const About = () => {
           </a>
 
           <a
-            href="https://x.com/__Arzaid__"
+            href="https://x.com/__Harshad__"
             target="_blank"
             rel="noopener noreferrer"
           >
             <TwitterLogoIcon className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
           </a>
           <a
-            href="mailto:arzaid010103@gmail.com?body=Hello"
+            href="mailto:harshad010103@gmail.com?body=Hello"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MailPlus className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
           </a>
           <a
-            href="https://instagram.com/arzaid._.xd"
+            href="https://instagram.com/harshad._.xd"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,16 +99,16 @@ const About = () => {
         <p className=" text-md lg:text-xl whitespace-break-spaces font-normal">
           I&apos;m excited to connect with others via email (
           <a
-            href="mailto:arzaid010103@gmail.com?body=Hello"
+            href="mailto:harshad010103@gmail.com?body=Hello"
             rel="noopener noreferrer"
             target="_blank"
             className=" text-blue-500 italic font-bold"
           >
-            arzaid010103@gmail.com
+            harshad010103@gmail.com
           </a>
           ) and{" "}
           <a
-            href="https://x.com/__Arzaid__"
+            href="https://x.com/__Harshad__"
             rel="noopener noreferrer"
             target="_blank"
             className="font-bold italic text-blue-500"

@@ -24,13 +24,13 @@ const Contact = () => {
             </h1>
             <span className=" font-normal text-sm md:text-lg text-center">
                 Shoot me an email if you want to connect! You can also find me on{" "}
-                <a className=" text-blue-500 font-bold" href="https://x.com/__Arzaid__" target="_blank">
+                <a className=" text-blue-500 font-bold" href="https://x.com/__Harshad__" target="_blank">
                     Twitter
                 </a>{" "}
                 if that&apos;s more your speed.
             </span>
-            <a href="mailto:arzaid010103@gmail.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
-                <MailPlus /> arzaid010103@gmail.com
+            <a href="mailto:harshad010103@gmail.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
+                <MailPlus /> harshad010103@gmail.com
             </a>
             <form className="flex flex-col w-full lg:w-[80%] gap-4" autoComplete="off" ref={form}>
                 <div className="flex justify-center items-center flex-wrap gap-3 w-full">

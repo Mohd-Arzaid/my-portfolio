@@ -7,7 +7,7 @@ const Footer = () => {
         <h1 className="opacity-70 text-base">Thanks for visiting my site!</h1>
         <h1 className="text-xl">Glad to have you here.</h1>
         <a
-          href="mailto:arzaid010103@gmail.com?body=Hello"
+          href="mailto:harshad010103@gmail.com?body=Hello"
           target="_blank"
           className="flex cursor-pointer text-base items-center gap-2 duration-200 group"
         >

@@ -30,14 +30,14 @@ const RightSideBar = () => {
 
         <div>
           <h1 className="flex flex-col text-xl">
-            <span className="font-bold">Mohd Arzaid</span>
+            <span className="font-bold">Harshad</span>
           </h1>
         </div>
       </div>
 
       <div className="mt-2 mx-6 flex flex-col gap-3">
         <p className="opacity-80  text-lg font-medium mb-2">
-          I&apos;m Arzaid, living in India. I love to code and develop{" "}
+          I&apos;m Harshad, living in India. I love to code and develop{" "}
           <span className="text-blue-900">
             Full-stack websites/ applications.
           </span>
