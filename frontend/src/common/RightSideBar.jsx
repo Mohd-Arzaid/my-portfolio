@@ -30,14 +30,14 @@ const RightSideBar = () => {
 
         <div>
           <h1 className="flex flex-col text-xl">
-            <span className="font-bold">Harshad</span>
+            <span className="font-bold">Arzaid</span>
           </h1>
         </div>
       </div>
 
       <div className="mt-2 mx-6 flex flex-col gap-3">
         <p className="opacity-80  text-lg font-medium mb-2">
-          I&apos;m Harshad, living in India. I love to code and develop{" "}
+          I&apos;m Arzaid, living in India. I love to code and develop{" "}
           <span className="text-blue-900">
             Full-stack websites/ applications.
           </span>
@@ -55,11 +55,10 @@ const RightSideBar = () => {
               key={category.name}
               variant="ghost"
               onClick={() => setActiveCategory(category.name)}
-              className={`px-2 py-1 text-md font-semibold  ${
-                activeCategory === category.name
+              className={`px-2 py-1 text-md font-semibold  ${activeCategory === category.name
                   ? "text-blue-500 bg-gray-100 hover:text-blue-500 "
                   : "font-semibold "
-              }`}
+                }`}
             >
               {category.name}
             </Button>
@@ -86,7 +85,7 @@ const RightSideBar = () => {
 
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };

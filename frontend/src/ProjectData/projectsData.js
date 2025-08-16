@@ -10,7 +10,7 @@ const projectsData = [
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "Tailwind"],
     techStackMobile: ["MongoDB", "ExpressJS", "React", "NodeJs"],
     liveDemo: "https://ed-tech-mern.vercel.app/",
-    githubCode: "https://github.com/Harshad-aka-Rz/StudyNotionMernProject",
+    githubCode: "https://github.com/Arzaid-aka-Rz/StudyNotionMernProject",
   },
   {
     id: 2,
@@ -21,8 +21,8 @@ const projectsData = [
     imageUrl: "./assets/Project2.png",
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "ShadCN"],
     techStackMobile: ["MongoDB", "ExpressJS", "React", "NodeJs"],
-    liveDemo: "https://harshad-food-app.vercel.app/",
-    githubCode: "https://github.com/Mohd-Harshad/food-app",
+    liveDemo: "https://Arzaid-food-app.vercel.app/",
+    githubCode: "https://github.com/Mohd-Arzaid/food-app",
   },
   {
     id: 3,
@@ -33,8 +33,8 @@ const projectsData = [
     imageUrl: "./assets/Project3.png",
     techStack: ["React", "Firebase", "Toastify", "Styled Components"],
     techStackMobile: ["React", "Toastify", "Styled Components"],
-    liveDemo: "https://harshad-typing-hub.netlify.app/",
-    githubCode: "https://github.com/Harshad-aka-Rz/typing-website",
+    liveDemo: "https://Arzaid-typing-hub.netlify.app/",
+    githubCode: "https://github.com/Arzaid-aka-Rz/typing-website",
   },
   {
     id: 4,
@@ -55,8 +55,8 @@ const projectsData = [
     imageUrl: "./assets/Project8.png",
     techStack: ["MongoDB", "React", "NodeJs", "Redux", "ShadCN"],
     techStackMobile: ["MongoDB", "React", "NodeJs", "Redux"],
-    liveDemo: "https://harshad-auth-flow.vercel.app/",
-    githubCode: "https://github.com/Mohd-Harshad/frontend-auth-flow",
+    liveDemo: "https://Arzaid-auth-flow.vercel.app/",
+    githubCode: "https://github.com/Mohd-Arzaid/frontend-auth-flow",
   },
 ];
 
