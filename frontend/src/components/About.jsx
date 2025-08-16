@@ -82,7 +82,7 @@ const About = () => {
             <TwitterLogoIcon className=" h-6 lg:h-6 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
           </a>
           <a
-            href="mailto:Arzaid010103@gmail.com?body=Hello"
+            href="mailto:arzaid010103@gmail.com?body=Hello"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,12 +99,12 @@ const About = () => {
         <p className=" text-md lg:text-xl whitespace-break-spaces font-normal">
           I&apos;m excited to connect with others via email (
           <a
-            href="mailto:Arzaid010103@gmail.com?body=Hello"
+            href="mailto:arzaid010103@gmail.com?body=Hello"
             rel="noopener noreferrer"
             target="_blank"
             className=" text-blue-500 italic font-bold"
           >
-            Arzaid010103@gmail.com
+            arzaid010103@gmail.com
           </a>
           ) and{" "}
           <a

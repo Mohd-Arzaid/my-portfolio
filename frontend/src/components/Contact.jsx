@@ -29,8 +29,8 @@ const Contact = () => {
                     </a>{" "}
                     if that&apos;s more your speed.
                 </span>
-                <a href="mailto:Arzaid010103@gmail.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
-                    <MailPlus /> Arzaid010103@gmail.com
+                <a href="mailto:arzaid010103@gmail.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
+                    <MailPlus /> arzaid010103@gmail.com
                 </a>
                 <form className="flex flex-col w-full lg:w-[80%] gap-4" autoComplete="off" ref={form}>
                     <div className="flex justify-center items-center flex-wrap gap-3 w-full">

@@ -48,7 +48,7 @@ const Header = () => {
             <Twitter className="lg:hidden" size={19} />
           </a>
           <a
-            href="mailto:Arzaid010103@gmail.com"
+            href="mailto:arzaid010103@gmail.com"
             className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
           >
             <Mail className="hidden lg:block" size={20} />
