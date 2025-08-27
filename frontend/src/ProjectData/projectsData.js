@@ -21,7 +21,7 @@ const projectsData = [
     imageUrl: "./assets/Project2.png",
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "ShadCN"],
     techStackMobile: ["MongoDB", "ExpressJS", "React", "NodeJs"],
-    liveDemo: "https://harshad-food-app.vercel.app/",
+    liveDemo: "https://arzaid-food-app.vercel.app/",
     // githubCode: "https://github.com/Mohd-Arzaid/food-app",
   },
   {
