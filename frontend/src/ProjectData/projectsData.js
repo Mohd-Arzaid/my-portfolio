@@ -10,7 +10,7 @@ const projectsData = [
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "Tailwind"],
     techStackMobile: ["MongoDB", "ExpressJS", "React", "NodeJs"],
     liveDemo: "https://ed-tech-mern.vercel.app/",
-    githubCode: "https://github.com/Arzaid-aka-Rz/StudyNotionMernProject",
+    // githubCode: "https://github.com/Arzaid-aka-Rz/StudyNotionMernProject",
   },
   {
     id: 2,
@@ -21,8 +21,8 @@ const projectsData = [
     imageUrl: "./assets/Project2.png",
     techStack: ["MongoDB", "ExpressJS", "React", "NodeJs", "ShadCN"],
     techStackMobile: ["MongoDB", "ExpressJS", "React", "NodeJs"],
-    liveDemo: "https://Arzaid-food-app.vercel.app/",
-    githubCode: "https://github.com/Mohd-Arzaid/food-app",
+    liveDemo: "https://harshad-food-app.vercel.app/",
+    // githubCode: "https://github.com/Mohd-Arzaid/food-app",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const projectsData = [
     techStack: ["React", "Firebase", "Toastify", "Styled Components"],
     techStackMobile: ["React", "Toastify", "Styled Components"],
     liveDemo: "https://Arzaid-typing-hub.netlify.app/",
-    githubCode: "https://github.com/Arzaid-aka-Rz/typing-website",
+    // githubCode: "https://github.com/Arzaid-aka-Rz/typing-website",
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const projectsData = [
     techStack: ["MongoDB", "React", "NodeJs", "Redux", "ShadCN"],
     techStackMobile: ["MongoDB", "React", "NodeJs", "Redux"],
     liveDemo: "https://Arzaid-auth-flow.vercel.app/",
-    githubCode: "https://github.com/Mohd-Arzaid/frontend-auth-flow",
+    // githubCode: "https://github.com/Mohd-Arzaid/frontend-auth-flow",
   },
 ];
 

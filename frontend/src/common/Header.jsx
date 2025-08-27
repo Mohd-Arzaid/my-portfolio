@@ -9,8 +9,8 @@ const Header = () => {
       <header className="px-6 py-4 z-10 w-[100vw] lg:w-full flex items-center justify-between bg-[#f9f9f9]">
         <div>
           <h1 className="text-3xl uppercase font-bold tracking-widest">
-            <span className="hidden lg:block">Arzaid</span>
-            <span className="lg:hidden">Arzaid</span>
+            <span className="hidden lg:block">Harshad</span>
+            <span className="lg:hidden">Harshad</span>
           </h1>
           <span className=" text-sm  items-center mt-1 gap-2 font-medium tracking-widest uppercase hidden lg:flex ">
             <Terminal size={17} className="opacity-70 " />
@@ -21,7 +21,7 @@ const Header = () => {
 
         <div className="flex items-center gap-2 md:gap-4 ">
           <a
-            href="https://github.com/Mohd-Arzaid"
+            href="https://github.com/HarshadBharade"
             target="_blank"
             rel="noopener noreferrer"
             className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
@@ -39,7 +39,7 @@ const Header = () => {
             <Code2 className="lg:hidden" size={19} />
           </a>
           <a
-            href="https://x.com/__Arzaid__"
+            href="https://x.com/BharadeHarshad"
             target="_blank"
             rel="noopener noreferrer"
             className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
@@ -48,7 +48,7 @@ const Header = () => {
             <Twitter className="lg:hidden" size={19} />
           </a>
           <a
-            href="mailto:arzaid010103@gmail.com"
+            href="mailto:harshadbharade8@gmail.com"
             className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
           >
             <Mail className="hidden lg:block" size={20} />
@@ -66,7 +66,7 @@ const Header = () => {
             </span>
 
             <p className="opacity-80  text-lg font-medium mb-2">
-              I&apos;m Arzaid, living in India. I love to code and develop{" "}
+              I&apos;m Harshad, living in India. I love to code and develop{" "}
               <span className="text-blue-900">
                 Full-stack websites/ applications.
               </span>
